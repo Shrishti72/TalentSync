@@ -27,10 +27,10 @@ const Header = () => {
 
         <div className="content w-screen">
           <div className="pl-12">
-            <h1 className="text-8xl font-light text-white">
+            <h1 className="text-6xl font-light text-white">
               Discover the Power of Talent:{" "}
               <span className="text-thin italic">
-                <br /> Unleash the Most Trusted Freelance Services for Your Business{" "}
+                <br /> Unleash Trusted Freelance Services for Your Business{" "}
               </span>{" "}
             </h1>
           </div>
