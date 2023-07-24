@@ -400,46 +400,6 @@ const NavBar = () => {
                           getNotifications={getNotifications}
                         />
                       )}
-                              return (
-    <>
-      <ErrorBox
-        show={showErrorDialog}
-        cancel={setShowErrorDialog}
-        errorMessage={errorMessage}
-      />
-      <nav
-        className={
-          "flex justify-between py-3 fixed top-0 left-0 right-0 transition ease-in-out delay-100 px-28 " +
-          colorChangeClass
-        }
-        // ... (existing styles)
-      >
-        <h2 className="cursor-pointer flex items-center">
-          {/* ... (existing header content) */}
-        </h2>
-
-        <div className="flex justify-end gap-x-6 my-3 stormItOut">
-          {!isSignInPage && (
-            <>
-              {/* ... (existing buttons and links) */}
-              <Link href="/gpt-page">
-                <span
-                  className={
-                    "font-light border-2 px-3 py-1 rounded-md text-sm cursor-pointer -mt-1 " +
-                    borderClass
-                  }
-                >
-                  GPT Page
-                </span>
-              </Link>
-            </>
-          )}
-          {/* ... (existing code) */}
-        </div>
-      </nav>
-    </>
-  );
-};
                       <span
                         onClick={() => signOut()}
                         href="/dao-login"
