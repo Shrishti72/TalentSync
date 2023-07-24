@@ -26,22 +26,18 @@ const Header = () => {
         </div>
 
         <div className="content w-screen">
-            <div className="pl-12">
-              <h1 className="text-8xl font-light text-white">
-                Find the most trusted{" "}
-                <span className="text-thin italic">
-                  {" "}
-                  <br /> freelance{" "}
-                </span>{" "}
-                services <br /> for your business
-              </h1>
-            </div>
-            <div className="w-screen  ml-12 mt-12">
-                <Button text={"Explore"} />
-            </div>
+          <div className="pl-12">
+            <h1 className="text-8xl font-light text-white">
+              Discover the Power of Talent:{" "}
+              <span className="text-thin italic">
+                <br /> Unleash the Most Trusted Freelance Services for Your Business{" "}
+              </span>{" "}
+            </h1>
+          </div>
+          <div className="w-screen  ml-12 mt-12">
+            <Button text={"Explore"} />
+          </div>
         </div>
-
-
       </div>
     </>
   );
